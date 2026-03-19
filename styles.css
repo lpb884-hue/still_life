@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+}
+
+.still_life {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+
+.tophalf {
+    background: linear-gradient(to bottom, goldenrod, wheat);
+    height: 50vh;
+}
+
+.bottomhalf {
+    background: linear-gradient(to top, peru, sienna);
+    height: 50vh;
+}
+
+.lemon {
+    position: absolute;
+    background: radial-gradient(circle at 30% 30%, yellow, gold 70%, goldenrod);
+    height: 20%;
+    width: 15%;
+    border-radius: 80%;
+    transform: rotate(-10deg);
+    top:65%;
+    bottom:0;
+    left:25%;
+    right:0;
+}
+
+.lemondot1 {
+    position: absolute;
+    background: radial-gradient(circle at 30% 30%, yellow, gold 70%, goldenrod);
+    height: 5%;
+    width: 2%;
+    border-radius: 80%;
+    transform: rotate(75deg);
+    top:75%;
+    bottom:0;
+    left:24%;
+    right:0;
+}
+
+.lemondot2 {
+    position: absolute;
+    background: radial-gradient(circle at 30% 30%, yellow, gold 70%, goldenrod);
+    height: 5%;
+    width: 2%;
+    border-radius: 80%;
+    transform: rotate(75deg);
+    top:70%;
+    bottom:0;
+    left:39%;
+    right:0;
+}
+
+.kiwi1 {
+    position: absolute;
+    background: radial-gradient(circle at 30% 30%, seagreen, darkolivegreen 70%, black);
+    height: 26.2vmin;
+    width: 26.2vmin;
+    border-radius: 100%;
+    top:45%;
+    bottom:0;
+    left:28%;
+    right:0;
+}
+
+.kiwi2 {
+    position: absolute;
+    background: radial-gradient(circle at 30% 30%, olivedrab, darkolivegreen 70%, black);
+    height: 26.2vmin;
+    width: 26.2vmin;
+    border-radius: 100%;
+    top:36%;
+    bottom:0;
+    left:33%;
+    right:0;
+}
+
+.orange1 {
+    position: absolute;
+    background: radial-gradient(circle at 30% 30%, orange,orangered 70%, brown);
+    height: 26.2vmin;
+    width: 26.2vmin;
+    border-radius: 100%;
+    top:50%;
+    bottom:0;
+    left:55%;
+    right:0;
+}
+
+.orangedot1 {
+    position: absolute;
+    background-color: brown;
+    height: 3.2vmin;
+    width: 3.2vmin;
+    border-radius: 100%;
+    top:55%;
+    bottom:0;
+    left:62%;
+    right:0;
+}
+
+.orange2 {
+    position: absolute;
+    background: radial-gradient(circle at 30% 30%, orange,orangered 70%, brown);
+    height: 26.2vmin;
+    width: 26.2vmin;
+    border-radius: 100%;
+    top:27%;
+    bottom:0;
+    left:58%;
+    right:0;
+}
+
+.orangedot2 {
+    position: absolute;
+    background-color: brown;
+    height: 3.2vmin;
+    width: 3.2vmin;
+    border-radius: 100%;
+    top:32%;
+    bottom:0;
+    left:63%;
+    right:0;
+}
+
+.orange3 {
+    position: absolute;
+    background: radial-gradient(circle at 30% 30%, orange,orangered 70%, brown);
+    height: 26.2vmin;
+    width: 26.2vmin;
+    border-radius: 100%;
+    top:39%;
+    bottom:0;
+    left:64%;
+    right:0;
+}
+
+.orange4 {
+    position: absolute;
+    background: radial-gradient(circle at 30% 30%, orange,orangered 70%, brown);
+    height: 26.2vmin;
+    width: 26.2vmin;
+    border-radius: 100%;
+    top:41vh;
+    bottom:0;
+    left:50vw;
+    right:0;
+}
+
+
+.plate1 {
+    position: absolute;
+    background-color: papayawhip;
+    height: 30%;
+    width: 42%;
+    border-radius: 80%;
+    top:48%;
+    bottom:0;
+    left:43%;
+    right:0;
+}
+
+.plate2 {
+    position: absolute;
+    background: radial-gradient(ellipse at center, papayawhip 2%, goldenrod);
+    height: 28%;
+    width: 42%;
+    border-radius: 80%;
+    top:48%;
+    bottom:0;
+    left:43%;
+    right:0;
+}
+
+.lilyellow {
+    position: absolute;
+    background: linear-gradient( gold, goldenrod);
+    height: 13%;
+    width: 5%;
+    border-radius: 80%;
+    transform: rotate(-75deg);
+    top:60%;
+    bottom:0;
+    left:47%;
+    right:0;
+}
+
+
+.cuplid1 {
+    position: absolute;
+    background-color: black;
+    height: 10%;
+    width: 12.2%;
+    border-radius: 80%;
+    top:62%;
+    bottom:0;
+    left:-4%;
+    right:0;
+}
+
+.cuplid2 {
+    position: absolute;
+    background-color: dimgray;
+    height: 11%;
+    width: 12.2%;
+    border-radius: 80%;
+    top:62%;
+    bottom:0;
+    left:-4%;
+    right:0;
+}
+
+.cup {
+    position: absolute;
+    background-color: gray;
+    height: 14%;
+    width: 11%;
+    transform: rotate(-79deg);
+    top:69%;
+    bottom:0;
+    left:-2%;
+    right:0;
+}
+
+.cupbottom {
+    position: absolute;
+    background-color: gray;
+    height: 8%;
+    width: 10.1%;
+    border-radius: 80%;
+    top:82%;
+    bottom:0;
+    left:-3.8%;
+    right:0;
+}
+
+@media screen and (max-width: 600px) {
+    .tophalf {
+        background: linear-gradient(to bottom, coral, steelblue);
+    }
+
+    .bottomhalf {
+        background: linear-gradient(to bottom, yellowgreen, pink);
+    }
+    .lemondot1, .lemondot2, .lilyellow, .cuplid1, .kiwi2 ,.plate1, .orange1,.orange3{
+        background: radial-gradient(circle at 30% 30%, blue, darkorchid);
+    }
+
+    .orange2,.orange4 .lemon, .cup, .kiwi1 {
+        background: radial-gradient(circle at 30% 30%, wheat, darkgoldenrod);
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .tophalf {
+        background: linear-gradient(to bottom, lime, black);
+    }
+
+    .bottomhalf {
+        background: linear-gradient(to bottom, olive, tan);
+    }
+    .lemondot1, .lemondot2, .lilyellow, .cuplid1, .kiwi2 ,.plate1, .orange1,.orange3{
+        background: radial-gradient(circle at 30% 30%, purple, lime);
+    }
+
+    .orange2,.orange4 .lemon, .cup, .kiwi1 {
+        background: radial-gradient(circle at 30% 30%, black, coral);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .lemondot1, .lemondot2, .lilyellow, .cuplid1, .kiwi2 ,.plate1, .orange1,.orange3{
+        background: radial-gradient(circle at 30% 30%, springgreen, violet);
+    }
+
+    .orange2,.orange4 .lemon, .cup, .kiwi1 {
+        background: radial-gradient(circle at 30% 30%, magenta, darkgrey);
+    }
+}
+
